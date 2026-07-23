@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-ink-line;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #0a0e17;
+  }
+  ::selection {
+    background-color: #ffb454;
+    color: #0a0e17;
+  }
+  :focus-visible {
+    outline: 2px solid #5eead4;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-xs tracking-widest text-circuit uppercase;
+  }
+  .section-shell {
+    @apply mx-auto w-full max-w-6xl px-6 sm:px-10 lg:px-16;
+  }
+  .card {
+    @apply bg-ink-card border border-ink-line rounded-2xl;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-signal px-6 py-3 font-mono text-sm font-medium text-ink transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_24px_rgba(255,180,84,0.35)];
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-full border border-ink-line px-6 py-3 font-mono text-sm font-medium text-paper transition-colors duration-200 hover:border-circuit hover:text-circuit;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* custom scrollbar to match the terminal aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e17;
+}
+::-webkit-scrollbar-thumb {
+  background: #232b3d;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2e9e8f;
+}
