@@ -30,7 +30,7 @@ export const projects = [
       "Implemented the Midtrans payment gateway.",
       "Enhanced UI consistency across the platform.",
     ],
-    github: "https://github.com/deviarynn/tjsl-untuk-negeri",
+    github: "https://github.com/deviarynn/FE_TJSL",
   },
   {
     id: "lifesync",
