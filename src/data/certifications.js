@@ -15,9 +15,9 @@ export const certifications = [
     detail: "Network configuration and administration.",
   },
   {
-    title: "Microsoft Office Specialist",
-    issuer: "Microsoft",
-    detail: "Certified in Microsoft Excel and Word.",
+    title: "TOEFL EPT",
+    issuer: "English Proficiency Test",
+    detail: "English language proficiency certification.",
   },
 ];
 
@@ -28,7 +28,7 @@ export const trainings = [
     detail: "Full-Stack Web Development learning path — 10 modules completed.",
   },
   {
-    title: "Filament Advanced Class",
+    title: "Mini Class Laravel Filament Mastery",
     issuer: "Laravel Filament",
     detail: "Rapid admin-dashboard development.",
   },
@@ -41,11 +41,6 @@ export const trainings = [
     title: "Operating Systems Course",
     issuer: "Certificate of completion",
     detail: "Core operating systems concepts.",
-  },
-  {
-    title: "TOEFL EPT",
-    issuer: "English Proficiency Test",
-    detail: "English language proficiency certification.",
   },
 ];
 
@@ -157,7 +152,6 @@ export const gallery = [
       "/gallery/banner3.png",
       "/gallery/banner4.png",
       "/gallery/banner5.png",
-      "/gallery/banner6.jpg",
     ],
   },
 ];

@@ -138,14 +138,17 @@ function GalleryCard({ item, index }) {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    if (!item.images?.length) return;
+    if (!item.images || item.images.length <= 1) return;
 
     const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % item.images.length);
-    }, 2500);
+      setCurrent((prev) =>
+        (prev + 1) % item.images.length
+      );
+    },2500);
 
-    return () => clearInterval(interval);
-  }, [item.images]);
+    return ()=>clearInterval(interval);
+
+  },[item.images]);
 
   return (
     <motion.div
@@ -276,22 +279,25 @@ function GalleryCard({ item, index }) {
 
         {/* DOT */}
 
-        <div className="mt-4 flex justify-center gap-2">
+        {item.images && item.images.length > 1 && (
 
-          {item.images?.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setCurrent(i)}
-              className={`h-2 w-2 rounded-full ${
-                current === i
-                  ? "bg-orange-400"
-                  : "bg-gray-500"
-              }`}
-            />
-          ))}
+  <div className="mt-4 flex justify-center gap-2">
 
-        </div>
+    {item.images.map((_, i) => (
+      <button
+        key={i}
+        onClick={() => setCurrent(i)}
+        className={`h-2 w-2 rounded-full ${
+          current === i
+            ? "bg-orange-400"
+            : "bg-gray-500"
+        }`}
+      />
+    ))}
 
+  </div>
+
+)}      
       </div>
     </motion.div>
   );

@@ -12,15 +12,17 @@ export const experience = [
     ],
   },
   {
-    role: "Backend Developer — Capstone Project",
-    org: "MBKM Dicoding × DBS Foundation 2026",
+    role: "MBKM Participant Full-Stack Web Developer — Backend Capstone Project",
+    org: "Dicoding by DBS Foundation 2026",
     period: "Feb 2026 — Jun 2026",
     type: "National Program",
     points: [
-      "Collaborated with AI Engineers and Data Scientists on WatchU, an AI-powered movie review platform.",
-      "Built RESTful APIs with Express.js and PostgreSQL (Supabase) for auth, reviews, ratings, and movie data.",
-      "Integrated generative AI for automatic sentiment analysis on user ratings and reviews.",
-      "Implemented RabbitMQ for asynchronous communication to improve backend scalability.",
+      "Participated in the MBKM program, specializing in the Full-Stack Web Developer learning path.",
+      "Completed all industry-based learning modules (HTML, CSS, JavaScript, Node.js, Express.js, and databases), achieving a perfect 5-star rating on every final module project.",
+      "Actively engaged in Instructor-Led Training (ILT) sessions to deepen technical expertise, professional English communication, and soft skills development.",
+      "Collaborated with AI Engineers and Data Scientists as a Backend Developer to build WatchU, an AI-powered movie review platform.",
+      "Integrated Generative AI to perform automated sentiment analysis and implemented RabbitMQ for asynchronous communication to optimize backend scalability.",
+      "Successfully deployed the WatchU platform and achieved high-performance backend architecture during the final Capstone Project evaluation.",
     ],
   },
   {
