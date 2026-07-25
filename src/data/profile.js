@@ -7,9 +7,9 @@ export const profile = {
   ],
   tagline: "Graduate — D3 Teknik Informatika",
   location: "Cilacap, Central Java, Indonesia",
-  email: "deviaryani310305@gmail.com",
+  email: "deviaryn3@gmail.com",
   phone: "+62 858-2064-5879",
-  bio: "I'm Devi Aryani, an IT professional with a strong interest in software engineering, full-stack development, and digital product design. My experience spans developing scalable web applications, designing intuitive user interfaces, and delivering technology-driven solutions through industry internships, national development programs, and collaborative projects. Proficient in Laravel, CI4, React.js, Express.js, PostgreSQL, MySQL, and Figma, I enjoy transforming ideas into reliable, user-focused digital products. I am eager to contribute to innovative teams and continuously grow as a software engineering professional.",
+  bio: "I'm Devi Aryani, an Informatics Engineering graduate with internship experience as a Full-Stack Web Developer at PT Sucofindo and hands-on experience through the MBKM Dicoding x DBS Foundation program. I have experience developing modern web applications, designing responsive user interfaces, building RESTful APIs, and managing relational databases using Laravel, CodeIgniter 4, React.js, Express.js, PostgreSQL, and MySQL. Combined with my background in UI/UX and visual design, I strive to build digital products that are scalable, intuitive, and user-centered. Passionate about software engineering and continuous learning, I am eager to contribute as an IT Specialist, Software Engineer, Full-Stack Developer, or Backend Developer while delivering impactful technology solutions.",
   socials: {
     github: "https://github.com/deviarynn",
     linkedin: "https://www.linkedin.com/in/devi-aryani-053836316/",
