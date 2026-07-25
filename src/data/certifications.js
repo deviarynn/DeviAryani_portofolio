@@ -57,7 +57,7 @@ export const gallery = [
     role: "Graphic Designer",
     note: "Campaign materials, ID cards, publications",
     images: [
-      "/gallery/pemira.JPG",
+      "/gallery/pemira.jpg",
     ],
   },
 
@@ -66,10 +66,10 @@ export const gallery = [
     role: "Media & Creative Team",
     note: "Stage backdrops, banners, branding",
     images: [
-      "/gallery/disnat1.PNG",
-      "/gallery/disnat4.PNG",
-      "/gallery/disnat3.JPG",
-      "/gallery/pamflet2.PNG",
+      "/gallery/disnat1.png",
+      "/gallery/disnat4.png",
+      "/gallery/disnat3.jpg",
+      "/gallery/pamflet2.png",
     ],
   },
 
@@ -78,10 +78,10 @@ export const gallery = [
     role: "Kominfo Team",
     note: "Visual communication & multimedia operations",
     images: [
-      "/gallery/rakorda1.JPG",
-      "/gallery/rakorda2.JPG",
-      "/gallery/rakorda2.PNG",
-      "/gallery/disnat2.PNG",
+      "/gallery/rakorda1.jpg",
+      "/gallery/rakorda2.jpg",
+      "/gallery/rakorda2.png",
+      "/gallery/disnat2.png",
     ],
   },
 
@@ -90,10 +90,10 @@ export const gallery = [
     role: "Kominfo Team",
     note: "Posters, banners, merchandise & event branding",
     images: [
-      "/gallery/dutkam.PNG",
-      "/gallery/dutkam2.PNG",
-      "/gallery/dutkam3.JPG",
-      "/gallery/dutkam4.PNG",
+      "/gallery/dutkam.png",
+      "/gallery/dutkam2.png",
+      "/gallery/dutkam3.jpg",
+      "/gallery/dutkam4.png",
     ],
   },
 
@@ -102,7 +102,7 @@ export const gallery = [
   role: "Director of Photography",
   note: "Storyboard, cinematography",
   youtube: "https://youtu.be/Q15qX21JhXU?si=HSraYFMYWtmtDJjz", 
-  thumbnail: "/gallery/cp.PNG", 
+  thumbnail: "/gallery/cp.png", 
 },
 
   {
@@ -110,9 +110,9 @@ export const gallery = [
     role: "Media Division Coordinator",
     note: "Social media campaign reaching 100+ applicants",
     images: [
-      "/gallery/openrec1.JPG",
-      "/gallery/openrec2.JPG",
-      "/gallery/openrec3.JPG",
+      "/gallery/openrec1.jpg",
+      "/gallery/openrec2.jpg",
+      "/gallery/openrec3.jpg",
     ],
   },
 
@@ -127,17 +127,17 @@ export const gallery = [
     layout: "portrait",
     instagram: "https://www.instagram.com/bem.pnc/?hl=en",
     images: [
-      "/gallery/feeds1.PNG",
-      "/gallery/feeds2.PNG",
-      "/gallery/feeds3.JPEG",
-      "/gallery/feeds4.JPEG",
-      "/gallery/feeds5.JPEG",
-      "/gallery/feeds6.JPEG",
-      "/gallery/feeds7.JPEG",
-      "/gallery/feeds11.PNG",
-      "/gallery/feeds9.PNG",
-      "/gallery/feeds8.PNG",
-      "/gallery/feeds10.PNG",
+      "/gallery/feeds1.png",
+      "/gallery/feeds2.png",
+      "/gallery/feeds3.jpeg",
+      "/gallery/feeds4.jpeg",
+      "/gallery/feeds5.jpeg",
+      "/gallery/feeds6.jpeg",
+      "/gallery/feeds7.jpeg",
+      "/gallery/feeds11.png",
+      "/gallery/feeds9.png",
+      "/gallery/feeds8.png",
+      "/gallery/feeds10.png",
     ],
   },
 
@@ -147,11 +147,11 @@ export const gallery = [
     note: "Event banners, backdrops, X-banners, photo booth, stage branding, welcome gate, and other large-scale visual designs.",
     layout: "landscape",
     images: [
-      "/gallery/banner1.PNG",
-      "/gallery/banner2.PNG",
-      "/gallery/banner3.PNG",
-      "/gallery/banner4.PNG",
-      "/gallery/banner5.PNG",
+      "/gallery/banner1.png",
+      "/gallery/banner2.png",
+      "/gallery/banner3.png",
+      "/gallery/banner4.png",
+      "/gallery/banner5.png",
     ],
   },
 ];
