@@ -137,19 +137,6 @@ function GalleryCard({ item, index }) {
   const isYoutube = !!item.youtube;
   const [current, setCurrent] = useState(0);
 
-  useEffect(() => {
-    if (!item.images || item.images.length <= 1) return;
-
-    const interval = setInterval(() => {
-      setCurrent((prev) =>
-        (prev + 1) % item.images.length
-      );
-    },2500);
-
-    return ()=>clearInterval(interval);
-
-  },[item.images]);
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -185,7 +172,7 @@ function GalleryCard({ item, index }) {
           <img
             src={item.thumbnail}
             alt={item.title}
-            className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+            className="h-full w-full object-cover transition duration-500 group-hover:scale-105 cursor-pointer"
           />
 
           <div className="absolute inset-0 bg-black/45 flex items-center justify-center">
@@ -203,7 +190,7 @@ function GalleryCard({ item, index }) {
         <img
           src={item.images[current]}
           alt={item.title}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover cursor-pointer"
         />
 
       )}
@@ -213,31 +200,63 @@ function GalleryCard({ item, index }) {
 
         {/* Left */}
 
-        <button
-          onClick={() =>
-            setCurrent(
-              (current - 1 + item.images.length) %
-                item.images.length
-            )
-          }
-          className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/40 px-2 py-1 text-white"
-        >
-          ❮
-        </button>
+        {item.images && item.images.length > 1 && (
+        <>
+          <button
+            onClick={() =>
+              setCurrent(
+                (current - 1 + item.images.length) %
+                  item.images.length
+              )
+            }
+            className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/40 px-2 py-1 text-white hover:bg-black/70"
+          >
+            ❮
+          </button>
+
+          <button
+            onClick={() =>
+              setCurrent(
+                (current + 1) %
+                  item.images.length
+              )
+            }
+            className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-black/40 px-2 py-1 text-white hover:bg-black/70"
+          >
+            ❯
+          </button>
+        </>
+      )}
 
         {/* Right */}
 
-        <button
-          onClick={() =>
-            setCurrent(
-              (current + 1) %
-                item.images.length
-            )
-          }
-          className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-black/40 px-2 py-1 text-white"
-        >
-          ❯
-        </button>
+        {item.images && item.images.length > 1 && (
+        <>
+          <button
+            onClick={() =>
+              setCurrent(
+                (current - 1 + item.images.length) %
+                  item.images.length
+              )
+            }
+            className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/40 px-2 py-1 text-white hover:bg-black/70"
+          >
+            ❮
+          </button>
+
+          <button
+            onClick={() =>
+              setCurrent(
+                (current + 1) %
+                  item.images.length
+              )
+            }
+            className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-black/40 px-2 py-1 text-white hover:bg-black/70"
+          >
+            ❯
+          </button>
+        </>
+      )}
 
       </div>
 

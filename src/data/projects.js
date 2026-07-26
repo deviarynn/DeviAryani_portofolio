@@ -38,8 +38,8 @@ export const projects = [
     tagline: "Employee habit & reward management system",
     description:
       "An internal web app that builds a positive workplace culture through gamified habit tracking — customizable missions, reward points, progress monitoring, and monthly leaderboards.",
-    role: "Backend Developer",
-    stack: ["CodeIgniter 4", "React", "MySQL", "Tailwind CSS", "JavaScript", "Bootstrap", "Figma"],
+    role: "Fullstack Developer",
+    stack: ["CodeIgniter 4", "React", "MySQL", "Tailwind CSS", "JavaScript", "Framer Motion", "Bootstrap", "Figma"],
     contributions: [
       "Developed RESTful APIs with CodeIgniter 4.",
       "Designed relational MySQL database schemas.",
@@ -47,5 +47,25 @@ export const projects = [
       "Implemented business logic for employee workflows.",
     ],
     github: "https://github.com/deviarynn/tjsl-untuk-negeri",
+  },
+  {
+    id: "arctictravels",
+    name: "ArcticTravels",
+    tagline: "Arctic Travels – Luxury Winter Travel Website Concept Project (Fictional Client Case Study)",
+    description:
+      "Arctic Travels is a fictional luxury travel agency concept created as a UI/UX case study. The project focuses on designing and developing a modern landing page for premium ski and snowboarding vacations. Inspired by leading travel platforms, the website emphasizes intuitive navigation, responsive design, immersive visuals, and an elegant user experience tailored to high-end travelers.",
+    role: "UI/UX Designer & Front-End Developer",
+    stack: ["Figma • React • TypeScript • Tailwind CSS • Framer Motion • Vite"],
+    contributions: [
+      "Conducted requirement analysis based on the provided client brief.",
+      "Designed the information architecture and user flow for the landing page.",
+      "Created high-fidelity UI designs in Figma following modern travel industry trends.",
+      "Developed a responsive landing page using React, TypeScript, and Tailwind CSS.",
+      "Implemented reusable UI components and responsive layouts for multiple screen sizes.",
+      "Added smooth animations and interactive elements using Framer Motion.",
+      "Optimized visual hierarchy, typography, and CTA placement to improve usability and conversion potential.",
+    ],
+    github: "https://github.com/deviarynn/ArcticTravels",
+    demo: "https://arctic-travels-omega.vercel.app/",
   },
 ];
