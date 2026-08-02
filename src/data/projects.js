@@ -19,7 +19,7 @@ export const projects = [
   {
     id: "tjsl",
     name: "TJSL Untuk Negeri",
-    tagline: "CSR & donation management platform",
+    tagline: "CSR & donation management platform (Not yet hosted)",
     description:
       "A web-based Corporate Social Responsibility platform that improves transparency in social and environmental initiatives — secure online donations, real-time program updates, and public fund-allocation reports.",
     role: "Front-End Developer",
@@ -35,7 +35,7 @@ export const projects = [
   {
     id: "lifesync",
     name: "LifeSync",
-    tagline: "Employee habit & reward management system",
+    tagline: "Employee habit & reward management system (Not yet hosted)",
     description:
       "An internal web app that builds a positive workplace culture through gamified habit tracking — customizable missions, reward points, progress monitoring, and monthly leaderboards.",
     role: "Fullstack Developer",
