@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { HiOutlineAcademicCap } from "react-icons/hi";
 import { profile, education } from "../data/profile";
 import SectionHeading from "./SectionHeading";
-import profileImage from "../assets/depi.jpeg";
+import profileImage from "../assets/depi.png";
 import Stats from "./Stats";
 
 export default function About() {
