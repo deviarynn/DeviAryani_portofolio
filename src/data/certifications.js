@@ -46,6 +46,8 @@ export const trainings = [
 
 export const recognitions = [
   "Industrial Internship Completion Certificate — PT Sucofindo",
+  "Industrial Internship Completion Certificate — Hiba Comp Sampang",
+  "Industrial Internship Completion Certificate — Realitor Corner",
   "MBKM Program Participant Certificate — Dicoding × DBS Foundation",
   "Multiple official committee certificates for university & regional events",
 ];

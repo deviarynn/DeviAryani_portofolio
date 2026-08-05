@@ -79,4 +79,30 @@ export const experience = [
       "Other Events: Contributed as a graphic designer, photographer, videographer, and creative media staff for events Study Banding, Miracle of Ramadhan, Internal Training BEM 2024, Moundwave, and Makrab Internal BEM.",
     ],
   },
+  {
+    role: "IT Support & Graphic Design Intern",
+    org: "Hiba Comp Sampang",
+    period: "March 2022 – May 2022",
+    type: "Internship",
+    points: [
+      "Provided IT support by assisting with MikroTik network configuration, connectivity testing, and basic troubleshooting for 5+ devices.",
+      "Designed banners, posters, and promotional materials based on client requirements using graphic design tools.",
+      "Supported daily administrative operations through document management and technical documentation.",
+      "Gained practical experience in web development fundamentals by completing HTML, CSS, and PHP implementation exercises.",
+      "Collaborated with the technical team to deliver customer support and resolve service requests efficiently.",
+    ],
+  },
+  {
+    role: "Customer Service & Digital Marketing Intern",
+    org: "Realitor Corner",
+    period: "Nov 2021 – Feb 2022",
+    type: "Internship",
+    points: [
+      "Assisted 20–30 customers daily by providing product consultations and handling inquiries through both in-person and digital communication channels.",
+      "Managed customer interactions via WhatsApp and social media, ensuring timely responses and supporting order processing activities.",
+      "Designed 10+ promotional graphics and marketing materials to strengthen product branding and online engagement.",
+      "Created and scheduled digital marketing content to improve product visibility across social media platforms.",
+      "Contributed to promotional campaigns by supporting product photography and serving as a product model for marketing materials.",
+    ],
+  }
 ];
