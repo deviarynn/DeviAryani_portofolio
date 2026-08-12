@@ -55,6 +55,25 @@ export const projects = [
     // github: "https://github.com/deviarynn/FE_lifesync",
   },
   {
+    id: "sikrs",
+    name: "SiKRS",
+    tagline: "Employee habit & reward management system (Not yet hosted)",
+    description:
+      "An internal web app that builds a positive workplace culture through gamified habit tracking — customizable missions, reward points, progress monitoring, and monthly leaderboards.",
+    role: "Backend Developer",
+    stack: ["Laravel", "React", "MySQL", "Tailwind CSS", "JavaScript", "Framer Motion", "Bootstrap", "Figma"],
+    contributions: [
+      "Designed the UI/UX and translated wireframes into responsive web interfaces.",
+      "Designed relational MySQL database schemas",
+      "Implemented business logic for mission tracking, point calculation, leaderboards, and reward management.",
+      "Built RESTful API endpoints",
+      "Debugged and tested application features",
+      "Performed testing, debugging, and deployment to ensure a reliable production-ready system.",
+    ],
+    // github: "https://github.com/deviarynn/be-lifesync",
+    // github: "https://github.com/deviarynn/FE_lifesync",
+  },
+  {
     id: "arctictravels",
     name: "ArcticTravels",
     tagline: "Arctic Travels – Luxury Winter Travel Website Concept Project (Fictional Client Case Study)",

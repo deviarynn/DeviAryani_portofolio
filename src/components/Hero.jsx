@@ -73,7 +73,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-6 max-w-xl text-base leading-relaxed text-slate sm:text-lg"
           >
-            {profile.tagline} — Full Stack Development, UI/UX design, <Creative></Creative> Design and an
+            {profile.tagline} — Full Stack Development, UI/UX design, Creative Design and an
             IT infrastructure foundation.
           </motion.p>
 
