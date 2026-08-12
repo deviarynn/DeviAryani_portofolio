@@ -2,14 +2,14 @@ export const profile = {
   name: "Devi Aryani",
   roles: [
     "Full-Stack Web Developer",
-    "UI/UX & Creative Graphic Design",
-    "IT Infrastructure & System Maintenance",
+    "UI/UX & Creative Design",
+    "IT Infrastructure",
   ],
   tagline: "Graduate — D3 Teknik Informatika",
   location: "Cilacap, Central Java, Indonesia",
   email: "deviaryn3@gmail.com",
   phone: "+62 858-2064-5879",
-  bio: "I'm Devi Aryani, an Informatics Engineering graduate with internship experience as a Full-Stack Web Developer at PT Sucofindo and hands-on experience through the MBKM Dicoding x DBS Foundation program. I have experience developing modern web applications, designing responsive user interfaces, building RESTful APIs, and managing relational databases using Laravel, CodeIgniter 4, React.js, Express.js, PostgreSQL, and MySQL. Combined with my background in UI/UX and visual design, I strive to build digital products that are scalable, intuitive, and user-centered. Passionate about software engineering and continuous learning, I am eager to contribute as an IT Specialist, Software Engineer, Full-Stack Developer, or Backend Developer while delivering impactful technology solutions.",
+  bio: "I'm Devi Aryani, an Informatics Engineering graduate with internship experience as a Full-Stack Web Developer at PT Sucofindo and hands-on experience through the MBKM Dicoding x DBS Foundation program. I have experience developing modern web applications, designing responsive user interfaces, building RESTful APIs, and managing relational databases using Laravel, CodeIgniter 4, React.js, Express.js, PostgreSQL, and MySQL. With a background in UI/UX, visual design, and IT infrastructure, I enjoy working across different layers of technology — from backend logic and data to interfaces and user experience. I am passionate about software engineering, continuous learning, and building practical digital solutions.",
   socials: {
     github: "https://github.com/deviarynn",
     linkedin: "https://www.linkedin.com/in/devi-aryani-053836316/",
@@ -34,27 +34,27 @@ export const education = [
 
   export const stats = [
   {
-    value: "3.87",
+    value: "3.77",
     suffix: "/4.00",
-    label: "Final GPA",
+    label: "GPA through Semester 5",
     animate: false,
   },
   {
-    value: "10",
+    value: "5",
     suffix: "+",
-    label: "Shipped Projects",
+    label: "Development Projects",
     animate: true,
   },
   {
-    value: "50",
+    value: "80",
     suffix: "+",
-    label: "Design assets produced",
+    label: "Design assets",
     animate: true,
   },
-  {
-    value: "1000",
-    suffix: "+",
-    label: "Records processed monthly",
-    animate: true,
-  },
+  // {
+  //   value: "1000",
+  //   suffix: "+",
+  //   label: "Records processed ",
+  //   animate: true,
+  // },
 ];

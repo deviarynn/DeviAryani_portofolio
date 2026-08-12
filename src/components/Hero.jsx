@@ -73,8 +73,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-6 max-w-xl text-base leading-relaxed text-slate sm:text-lg"
           >
-            {profile.tagline} — full-stack development, UI/UX design, Graphic Design and an
-            IT infrastructure foundation, applied to products that ship.
+            {profile.tagline} — Full Stack Development, UI/UX design, <Creative></Creative> Design and an
+            IT infrastructure foundation.
           </motion.p>
 
           <motion.div
@@ -90,10 +90,13 @@ export default function Hero() {
               Get in touch
             </a>
             <a
-              href={`mailto:${profile.email}`}
-              className="inline-flex items-center gap-2 font-mono text-xs text-slate hover:text-circuit transition-colors"
+              href="/Devi-Aryani-CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 font-mono text-xs text-slate transition-colors hover:text-circuit"
             >
-              <HiOutlineDownload /> Resume on request
+              <HiOutlineDownload />
+              View Resume
             </a>
           </motion.div>
         </div>

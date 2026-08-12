@@ -48,8 +48,10 @@ export const skillGroups = [
 ];
 
 export const techStack = [
+  "PHP",
   "Laravel",
   "CodeIgniter 4",
+  "Node.js",
   "React.js",
   "Express.js",
   "PostgreSQL",
