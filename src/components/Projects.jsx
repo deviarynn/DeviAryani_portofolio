@@ -8,7 +8,7 @@ export default function Projects() {
     <section id="projects" className="section-shell py-24 sm:py-32">
       <SectionHeading
         path="~/projects"
-        title="Featured work"
+        title="Development Projects"
         description="Three products built with real teams, real constraints, and real users in mind."
       />
 

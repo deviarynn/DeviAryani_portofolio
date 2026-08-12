@@ -90,7 +90,7 @@ export default function Hero() {
               Get in touch
             </a>
             <a
-              href="/Devi-Aryani-CV.pdf"
+              href="/DEVI-ARYANI-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 font-mono text-xs text-slate transition-colors hover:text-circuit"
