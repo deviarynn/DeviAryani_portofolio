@@ -89,7 +89,7 @@ export default function Hero() {
             <a href="#contact" className="btn-ghost">
               Get in touch
             </a>
-            <a
+            {/* <a
               href="/DEVI-ARYANI-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -97,7 +97,7 @@ export default function Hero() {
             >
               <HiOutlineDownload />
               View Resume
-            </a>
+            </a> */}
           </motion.div>
         </div>
 
