@@ -5,11 +5,11 @@ export const profile = {
     "UI/UX & Creative Design",
     "IT Infrastructure",
   ],
-  tagline: "Graduate — D3 Teknik Informatika",
+  tagline: "D3 Informatics Engineering",
   location: "Cilacap, Central Java, Indonesia",
   email: "deviaryn3@gmail.com",
   phone: "+62 858-2064-5879",
-  bio: "I'm Devi Aryani, an Informatics Engineering graduate with internship experience as a Full-Stack Web Developer at PT Sucofindo and hands-on experience through the MBKM Dicoding x DBS Foundation program. I have experience developing modern web applications, designing responsive user interfaces, building RESTful APIs, and managing relational databases using Laravel, CodeIgniter 4, React.js, Express.js, PostgreSQL, and MySQL. With a background in UI/UX, visual design, and IT infrastructure, I enjoy working across different layers of technology — from backend logic and data to interfaces and user experience. I am passionate about software engineering, continuous learning, and building practical digital solutions.",
+  bio: "I'm Devi Aryani, an Informatics Engineering graduate with internship experience as a Full-Stack Web Developer at PT Sucofindo and hands-on experience through the MBKM Dicoding x DBS Foundation program. I have experience developing modern web applications, building RESTful APIs, designing relational databases, and creating responsive user interfaces using Laravel, CodeIgniter 4, React.js, Express.js, PostgreSQL, and MySQL. With additional experience in UI/UX, visual design, and IT infrastructure, I enjoy working across different layers of technology — from backend logic and data to interfaces, user experience, and basic network infrastructure. I’m passionate about software engineering, continuous learning, and building practical digital solutions that solve real-world problems.",
   socials: {
     github: "https://github.com/deviarynn",
     linkedin: "https://www.linkedin.com/in/devi-aryani-053836316/",
