@@ -1,8 +1,8 @@
 // Skill domains power the signature network-graph visual (Hero + About)
 // and the detailed skill cards in the Skills section.
 export const skillDomains = [
-  { id: "backend", label: "Backend", x: 20, y: 28 },
-  { id: "frontend", label: "Frontend", x: 78, y: 20 },
+  { id: "backend", label: "Full-Stack", x: 20, y: 28 },
+  { id: "frontend", label: "IT Support", x: 78, y: 20 },
   { id: "design", label: "UI/UX", x: 82, y: 72 },
   { id: "network", label: "Network", x: 18, y: 76 },
   { id: "core", label: "Devi", x: 50, y: 48, isCore: true },

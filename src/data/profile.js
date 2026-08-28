@@ -1,15 +1,15 @@
 export const profile = {
   name: "Devi Aryani",
   roles: [
+    "IT Specialist",
+    "Software Engineer",
     "Full-Stack Web Developer",
-    "UI/UX & Creative Design",
-    "IT Infrastructure",
   ],
   tagline: "D3 Informatics Engineering",
   location: "Cilacap, Central Java, Indonesia",
   email: "deviaryn3@gmail.com",
   phone: "+62 858-2064-5879",
-  bio: "I'm Devi Aryani, an Informatics Engineering graduate with internship experience as a Full-Stack Web Developer at PT Sucofindo and hands-on experience through the MBKM Dicoding x DBS Foundation program. I have experience developing modern web applications, building RESTful APIs, designing relational databases, and creating responsive user interfaces using Laravel, CodeIgniter 4, React.js, Express.js, PostgreSQL, and MySQL. With additional experience in UI/UX, visual design, and IT infrastructure, I enjoy working across different layers of technology — from backend logic and data to interfaces, user experience, and basic network infrastructure. I’m passionate about software engineering, continuous learning, and building practical digital solutions that solve real-world problems.",
+  bio: "I'm Devi Aryani, an Informatics Engineering graduate with internship experience as a Full-Stack Web Developer at PT Sucofindo and hands-on experience through the MBKM Dicoding x DBS Foundation program. I have experience developing modern web applications, building RESTful APIs, designing relational databases, and creating responsive user interfaces using Laravel, CodeIgniter 4, React.js, Express.js, PostgreSQL, and MySQL. With a foundation in IT infrastructure and technical support, as well as experience in UI/UX and visual design, I enjoy working across different layers of technology — from backend logic and data to interfaces, deployment, troubleshooting, and basic network infrastructure. I’m passionate about software engineering, continuous learning, and building practical digital solutions that solve real-world problems.",
   socials: {
     github: "https://github.com/deviarynn",
     linkedin: "https://www.linkedin.com/in/devi-aryani-053836316/",
@@ -22,7 +22,7 @@ export const education = [
     school: "Politeknik Negeri Cilacap",
     degree: "D3 — Teknik Informatika",
     period: "2023 — 2026",
-    detail: "IPK 3.87/4.00",
+    detail: "IPK 3.78/4.00",
   },
   {
     school: "SMK Negeri 1 Binangun",
@@ -34,9 +34,9 @@ export const education = [
 
   export const stats = [
   {
-    value: "3.77",
+    value: "3.78",
     suffix: "/4.00",
-    label: "GPA through Semester 5",
+    label: "GPA",
     animate: false,
   },
   {
@@ -51,10 +51,4 @@ export const education = [
     label: "Design assets",
     animate: true,
   },
-  // {
-  //   value: "1000",
-  //   suffix: "+",
-  //   label: "Records processed ",
-  //   animate: true,
-  // },
 ];

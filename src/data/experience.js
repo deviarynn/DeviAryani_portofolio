@@ -93,7 +93,7 @@ export const experience = [
     ],
   },
   {
-    role: "IT Support & Graphic Design Intern",
+    role: "IT Support Intern",
     org: "Hiba Comp Sampang",
     period: "March 2022 – May 2022",
     type: "Internship",

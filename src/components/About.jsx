@@ -39,7 +39,7 @@ export default function About() {
               </h3>
 
               <p className="text-sm text-slate-300">
-                Full-Stack Developer
+                IT Specialist / Software Engineer
               </p>
 
               <div className="mt-3 flex items-center gap-2 font-mono text-xs text-slate-300">
