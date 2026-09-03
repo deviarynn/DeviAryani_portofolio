@@ -13,6 +13,21 @@ import SectionHeading from "./SectionHeading";
 
 export default function Projects() {
   const [openProject, setOpenProject] = useState(null);
+  const [activeFilter, setActiveFilter] = useState("ALL");
+
+  const filters = [
+    "ALL",
+    "FULL-STACK",
+    "FRONTEND",
+    "BACKEND",
+  ];
+
+  const filteredProjects =
+    activeFilter === "ALL"
+      ? projects
+      : projects.filter(
+          (project) => project.category === activeFilter
+        );
 
   const toggleProject = (id) => {
     setOpenProject(openProject === id ? null : id);
@@ -26,12 +41,66 @@ export default function Projects() {
         description="Three products built with real teams, real constraints, and real users in mind."
       />
 
-      <div className="space-y-10">
-        {projects.map((project, i) => {
-          const isOpen = openProject === project.id;
+      {/* =====================================================
+              PROJECT FILTER
+          ===================================================== */}
 
-          return (
-            <motion.article
+          <div className="mb-12 mt-10">
+
+            <div className="mb-4 flex items-center gap-3">
+              <span className="h-px w-8 bg-signal" />
+
+              <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-slate">
+                Selected Projects
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+
+              {filters.map((filter) => {
+                const isActive = activeFilter === filter;
+
+                return (
+                  <button
+                    key={filter}
+                    onClick={() => {
+                      setActiveFilter(filter);
+                      setOpenProject(null);
+                    }}
+                    className={`
+                      rounded-full
+                      border
+                      px-4
+                      py-2
+                      font-mono
+                      text-[10px]
+                      uppercase
+                      tracking-widest
+                      transition-all
+                      duration-300
+
+                      ${
+                        isActive
+                          ? "border-signal bg-signal text-black"
+                          : "border-ink-line text-slate hover:border-signal hover:text-signal"
+                      }
+                    `}
+                  >
+                    {filter}
+                  </button>
+                );
+              })}
+
+            </div>
+
+          </div>
+
+      <div className="space-y-10">
+      {filteredProjects.map((project, i) => {
+        const isOpen = openProject === project.id;
+
+        return (
+          <motion.article
               key={project.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -119,8 +188,6 @@ export default function Projects() {
                     <p className="mt-5 text-sm leading-relaxed text-slate">
                       {project.description}
                     </p>
-
-                    {/* ================= STACK ================= */}
 
                     <div className="mt-6 flex flex-wrap gap-2">
                       {project.stack?.map((tech) => (

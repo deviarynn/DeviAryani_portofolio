@@ -23,6 +23,8 @@ export const projects = [
 
     role: "Backend Developer",
 
+    category: "BACKEND",
+
     tagline: "Internal Management Web Application",
 
     description:
@@ -82,17 +84,14 @@ export const projects = [
       "The resulting application provides a centralized platform for managing operational data, reducing reliance on manual processes, improving accessibility of information, and providing structured reporting capabilities.",
   },
 
-
-  // =====================================================
-  // 02 — TJSL
-  // =====================================================
-
   {
     id: 2,
 
     name: "TJSL",
 
     role: "Full Stack Developer",
+
+    category: "FULL-STACK",
 
     tagline: "Corporate Social Responsibility Management System",
 
@@ -133,13 +132,11 @@ export const projects = [
       "The application provides a centralized digital platform for managing activity data, monitoring records, processing information, and generating reports.",
 
     caseStudyContributions: [
-      "Developed responsive web interfaces.",
-      "Implemented backend functionality.",
-      "Developed RESTful API endpoints.",
-      "Implemented CRUD operations.",
-      "Integrated frontend with backend APIs.",
-      "Worked with MySQL database structures.",
-      "Implemented reporting and export functionality.",
+      "Developed and maintained features for a web-based TJSL (Corporate Social Responsibility) application using PHP/Laravel, MySQL, and RESTful APIs." , 
+      "Implemented frontend-backend integration and API communication to support application functionality and data processing." , 
+      "Integrated Midtrans Payment Gateway to support online payment processing." , 
+      "Implemented data management and business logic according to application requirements." , 
+      "Conducted application testing, debugging, and troubleshooting throughout development and maintenance." , 
     ],
 
     features: [
@@ -163,17 +160,14 @@ export const projects = [
       "The completed application provides a more structured way to manage and monitor TJSL activities while simplifying data processing and reporting.",
   },
 
-
-  // =====================================================
-  // 03 — WATCHU
-  // =====================================================
-
   {
     id: 3,
 
     name: "WatchU",
 
     role: "Backend Developer",
+
+    category: "BACKEND",
 
     tagline: "Collaborative Movie Discovery Platform",
 
@@ -239,17 +233,14 @@ export const projects = [
       "The project resulted in a functional movie discovery platform while providing practical experience in collaborative full-stack development, API integration, and modern JavaScript development.",
   },
 
-
-  // =====================================================
-  // 04 — SiKRS
-  // =====================================================
-
   {
     id: 4,
 
     name: "SiKRS",
 
     role: "Frontend Developer",
+
+    category: "FRONTEND",
 
     tagline: "Student Course Registration Information System",
 
@@ -323,17 +314,14 @@ export const projects = [
       "The resulting system provides a centralized platform for managing course registration data and gives students easier access to their registered courses while reducing dependence on manual academic data management.",
   },
 
-
-  // =====================================================
-  // 05 — ARCTIC TRAVELS
-  // =====================================================
-
   {
     id: 5,
 
     name: "Arctic Travels",
 
     role: "Frontend Developer",
+
+    category: "FRONTEND",
 
     tagline: "Luxury Winter Travel Experience",
 
