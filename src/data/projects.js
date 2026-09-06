@@ -146,8 +146,8 @@ export const projects = [
       "CRUD operations",
       "API integration",
       "Reporting",
-      "PDF generation",
-      "Excel export",
+      "PDF & Excel export",
+      "Midtrans Payment Gateway",
     ],
 
     technical:
